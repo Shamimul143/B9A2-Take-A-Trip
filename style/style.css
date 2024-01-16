@@ -48,7 +48,6 @@ nav {
 .logo-section img {
     width: 48px;
     height: 40px;
-
 }
 
 .logo-section h2 {
@@ -68,8 +67,7 @@ nav {
 #menu-icon {
     display: none;
 }
-
-
+        /* --------------main section start ----------------*/
 main {
     width: 95%;
     max-width: 1100px;
@@ -81,7 +79,6 @@ main {
     text-align: center;
     padding: 100px 0;
     background-repeat: no-repeat;
-
 }
 
 .banner-title {
@@ -100,8 +97,8 @@ main {
 .banner-checkbox {
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.30);
-    margin: 50px 200px;
-    padding: 15px 0;
+    margin: 50px 210px;
+    padding: 10px 0;
 }
 
 .banner-checkbox input,
@@ -113,7 +110,6 @@ select {
     padding: 0 10px;
     margin-right: 10px;
     border: 0;
-    
 }
 
 .popular-tours {
@@ -144,17 +140,13 @@ select {
     color: #131318;
     font-size: 40px;
     font-weight: 800;
-
 }
-
-
 
 .img-gallary,
 .img-gallary2,
 .img-gallary3 {
     display: flex;
     gap: 10px;
-
 }
 
 .img-name {
@@ -239,9 +231,31 @@ select {
     background: rgba(233, 68, 68, 0.05);
 }
 
-/* bonus section */
+/* --------------------------bonus section start----------------- */
 
-/* newsletter-section */
+.bonus-section {
+    display: flex;
+    gap: 10px;
+    margin: 50px 0;
+}
+
+.bonus-title {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+
+}
+
+.bonus-btn {
+    margin-top: 20px;
+}
+
+.bonus-video {
+    border-radius: 16px;
+}
+/* -----------------------------------bonus end ------------------*/
+
+/*--------------------------------- newsletter-section------------ */
 
 .newsletter-section {
     display: flex;
@@ -291,14 +305,15 @@ select {
     position: relative;
     bottom: 113px;
     left: 467px;
-    
 }
-footer{
+            /* ----------------footer start -----------------*/
+footer {
     background: rgba(19, 19, 24, 0.05);
     text-align: center;
     padding: 100px 335px;
 }
-.footer-logo{
+
+.footer-logo {
     display: flex;
     justify-content: center;
 }

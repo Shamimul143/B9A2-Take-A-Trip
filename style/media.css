@@ -24,7 +24,6 @@
     .banner-section {
         padding: 20px 0;
         background-size: 550px 450px;
-
     }
 
     .banner-title {
@@ -40,7 +39,10 @@
         margin-bottom: 15px;
     }
 
-    .popular-tours, .hotel-and-service, .newsletter-section {
+    .popular-tours,
+    .hotel-and-service,
+    .newsletter-section,
+    .bonus-section {
         flex-direction: column;
     }
 
@@ -52,13 +54,14 @@
         font-size: 16px;
     }
 
-    .popular-tours-img, .newsletter-img {
+    .popular-tours-img,
+    .newsletter-img {
         width: 350px;
-
     }
+
     .img-gallary,
     .img-gallary2,
-    .img-gallary3 > div {
+    .img-gallary3>div {
         position: relative;
     }
 
@@ -83,33 +86,39 @@
         position: absolute;
         bottom: 100px;
         left: 126px;
-
     }
 
     .img-size {
         height: 200px;
     }
 
-.prise{
-    margin: 10px 0;
-}
-.newsletter-img-section{
-    position: relative;
-}
-.discount-btn{
-    left: 143px;
-    bottom: 37px;
-    position: absolute;
+    .prise {
+        margin: 10px 0;
+    }
 
- }
-.newsletter-input, .subscribe-btn {
-    width: 300px;
-    height: 52px;
+    .bonus-video {
+        width: 350px;
+    }
 
-}
-footer{
-    padding: 30px 20px;
-}
+    .newsletter-img-section {
+        position: relative;
+    }
+
+    .discount-btn {
+        left: 143px;
+        bottom: 37px;
+        position: absolute;
+    }
+
+    .newsletter-input,
+    .subscribe-btn {
+        width: 300px;
+        height: 52px;
+    }
+
+    footer {
+        padding: 30px 20px;
+    }
 
 
 }
