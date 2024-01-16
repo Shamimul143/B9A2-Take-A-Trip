@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Mulish', sans-serif;
+}
+
+.common-btn {
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    width: 150px;
+    height: 35px;
+    border: 0;
+}
+
+.common-description {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 10px 0;
+}
+
+nav {
+    width: 95%;
+    max-width: 1100px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-section {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.logo-section img {
+    width: 48px;
+    height: 40px;
+
+}
+
+.logo-section h2 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.menu-item a {
+    color: #424247;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 0 10px;
+    text-decoration: none;
+}
+
+#menu-icon {
+    display: none;
+}
+
+
+main {
+    width: 95%;
+    max-width: 1100px;
+    margin: 30px auto;
+}
+
+.banner-section {
+    background-image: url(../Images/Group-133.png);
+    text-align: center;
+    padding: 100px 0;
+    background-repeat: no-repeat;
+
+}
+
+.banner-title {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+}
+
+.banner-description {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 20px 0;
+}
+
+.banner-checkbox {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    margin: 50px 200px;
+    padding: 15px 0;
+}
+
+.banner-checkbox input,
+select {
+    width: 150px;
+    height: 35px;
+    border-radius: 8px;
+    background: #FFF;
+    padding: 0 10px;
+    margin-right: 10px;
+    border: 0;
+    
+}
+
+.popular-tours {
+    display: flex;
+    gap: 50px;
+}
+
+.popular-tours h2 {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.popular-tours-img {
+    width: 440px;
+}
+
+.gallary,
+.choose-section {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.gallary h2,
+.choose-section h2 {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+
+}
+
+
+
+.img-gallary,
+.img-gallary2,
+.img-gallary3 {
+    display: flex;
+    gap: 10px;
+
+}
+
+.img-name {
+    position: relative;
+    bottom: 150px;
+    left: 250px;
+    color: white;
+}
+
+.img-name2 {
+    position: relative;
+    bottom: 150px;
+    left: 130px;
+    color: white;
+}
+
+.img-name3 {
+    position: relative;
+    bottom: 150px;
+    left: 161px;
+    color: white;
+}
+
+.img-name4 {
+    position: relative;
+    bottom: 150px;
+    left: 81px;
+    color: white;
+}
+
+.img-name5 {
+    position: relative;
+    bottom: 150px;
+    left: 156px;
+    color: white;
+}
+
+.img-name6 {
+    position: relative;
+    bottom: 150px;
+    left: 265px;
+    color: white;
+}
+
+.img-gallary img,
+.img-gallary2 img,
+.img-gallary3 img {
+    width: 100%;
+}
+
+.hotel-and-service {
+    display: flex;
+    gap: 10px;
+}
+
+.hotel {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 20px;
+}
+
+.service {
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    padding: 20px;
+}
+
+.choose-section-title {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 20px;
+}
+
+.prise {
+    padding: 20px;
+    margin: 30px 260px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}
+
+/* bonus section */
+
+/* newsletter-section */
+
+.newsletter-section {
+    display: flex;
+    gap: 10px;
+}
+
+.newsletter {
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    padding: 40px 20px;
+    height: 422px;
+}
+
+.newsletter h3 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.newsletter-input {
+    width: 350px;
+    height: 52px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    border: 0;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+
+.subscribe-btn {
+    border-radius: 8px;
+    background: #FF5400;
+    width: 350px;
+    height: 52px;
+    border: 0;
+}
+
+.discount-btn {
+    width: 200px;
+    height: 80px;
+    transform: rotate(-19.628deg);
+    border-radius: 16px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    padding-top: 20px;
+    position: relative;
+    bottom: 113px;
+    left: 467px;
+    
+}
+footer{
+    background: rgba(19, 19, 24, 0.05);
+    text-align: center;
+    padding: 100px 335px;
+}
+.footer-logo{
+    display: flex;
+    justify-content: center;
+}
